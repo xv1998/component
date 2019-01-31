@@ -7,7 +7,7 @@
 
 在组件模板中可以提供一个 <slot> 节点，用于承载组件引用时提供的子节点。
 
-`
+```
 <!-- 组件模板 -->
 <view class="wrapper">
   <view>这里是组件的内部节点</view>
@@ -20,4 +20,4 @@
     <view>这里是插入到组件slot中的内容</view>
   </component-tag-name>
 </view>
-`
+```
