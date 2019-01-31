@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <add id='dialog' 
+      content='这是个小程序组件' 
+      confirm='ok'
+      bind:confirmEvent="_confirmEvent">
+    </add>
+    
+    <button type="primary" bindtap="showDialog"> 点我~ </button>
+</view>

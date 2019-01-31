@@ -1,0 +1,6 @@
+/**index.wxss**/
+.style{
+  display: block;
+  position: relative;
+  width: 100px;
+}
